@@ -1,0 +1,154 @@
+.spotify-black {
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #d9dadc;
+}
+
+main {
+  width: 450px;
+  margin: 40px auto 0;
+}
+
+.group-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.long-btn,
+.long-black-btn,
+.long-white-btn {
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 500px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+
+.long-btn:hover,
+.long-black-btn:hover,
+.long-white-btn:hover {
+  transform: scale(1.01);
+}
+
+.long-black-btn {
+  background-color: #000000e5;
+}
+
+.long-white-btn {
+  background-color: white;
+  border: 1px solid #878787;
+  color: #6a6a6a;
+  margin-bottom: 20px;
+}
+
+.space-btn {
+  padding: 10px 0;
+}
+
+.divider {
+  border: 1px solid #d9dadc;
+  text-align: center;
+  line-height: 0;
+  margin-bottom: 30px;
+  font-size: 0.88rem;
+  color: #000000;
+}
+
+.divider span {
+  background-color: white;
+  padding: 0 10px;
+}
+
+.simpleform {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.input-form {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  cursor: pointer;
+}
+
+.input-form label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.input-form input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-form input::placeholder {
+  padding: 5px;
+  font-size: 0.7rem;
+}
+
+hr {
+  border: 1px solid #d9dadc;
+}
+
+main > p {
+  text-align: center;
+  font-weight: bold;
+  font-weight: 1rem;
+  margin: 15px 0;
+}
+
+a {
+  font-size: 0.8rem;
+  color: black;
+  text-align: left;
+}
+
+.mini {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0 20px;
+}
+
+.mini div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mini div input:checked {
+  accent-color: #1ed760;
+}
+
+.mini div {
+  font-size: 13px;
+}
+
+.green-btn {
+  background-color: #1ed760;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 150px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
